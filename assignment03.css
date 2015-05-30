@@ -1,0 +1,107 @@
+﻿
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+label {
+	font-weight: bold;
+	float: left;
+	vertical-align: top;
+	text-align: right;
+	white-space: nowrap;
+	width: 350px;
+}
+input,select {
+    margin-left:15px;
+}
+.content {
+	background-position: right bottom;
+	width: 950px;
+	background-image: url('images/Centennial-College1.jpg');
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	border: 5px dashed #C3D021;
+	border-radius: 15px;
+	box-shadow: 3px 3px 3px 3px #CCCCCC;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.bloodFont {
+	font-weight: bold;
+}
+fieldset {
+	border: 1px solid #C0C0C0;
+	width: 850px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 5px #CCCCCC;
+	margin-bottom: 20px;
+}
+.mainColor {
+	color: #C3D021;
+}
+.greyColor {
+	color: #C0C0C0;
+}
+.footer {
+  text-align: center;
+  height: 30px;
+  color: gray;
+  padding-top: 15px;
+}
+.btn-info {
+	color: #fff;
+	background-color: #C3D021;
+	border-color: #817D00;
+}
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.right {
+	text-align: left;
+}
+a:hover {
+	color: #E13A3E;
+	text-decoration: none;
+}
+a {
+	color: #006699;
+	text-decoration: none;
+}
+
+.whiteFont {
+	color: #FFFFFF;
+}
+
+.whiteFont a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.whiteFont a:hover {
+	color: black;
+	text-decoration: none;
+}
+.whiteFont a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #AF1B1F;
+}

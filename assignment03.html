@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Student Registration | Centennial College</title>
+    <meta name="Author" content="Li Xu">
+    <meta name="Keywords" content="onle, registration, college, centennial">
+    <meta name="Description" content="This is a student registration of Centennial College">
+    <!-- Name: LI XU -->
+    <!-- ID: 300735072 -->
+    <!-- Course Name: Ad Web App Development -->
+    <!-- Course ID: COMP-229 -->
+    <link href="assignment03.css" rel="stylesheet" />
+    <script src="assignment03.js"></script>
+</head>
+<body>
+    <div class="content">
+        <p><img alt="banner" height="180" src="images/Centennial-College.jpg" width="500"></p>
+
+
+        <h2 class=" whiteFont">
+            <a class="btn btn-info" href="https://www.centennialcollege.ca/">Centennial College HOME</a>
+            <a class="btn btn-info" href="../../index.html">ABOUT</a>
+            <a class="btn btn-info" href="../../index.html">CONTACT</a>
+        </h2>
+        <h2 class="mainColor">Student Registration Form | Centennial College</h2>
+        <p class="greyColor">Please complete all the fields below</p>
+
+        <form name="myForm" id="theForm" action="myForm.aspx" method="post" onsubmit="return validateForm()">
+            <fieldset>
+                <legend class="mainColor bloodFont">STUDENT INFO</legend>
+
+                <p>
+                    <label for="txtFirstName">First Name:</label>
+                    <input id="txtFirstName" name="txtFirstName" size="25" tabindex="1" type="text">
+                </p>
+
+                <p>
+                    <label for="txtFirstName">Last Name:</label>
+                    <input id="txtFirstName" name="txtFirstName" size="25" tabindex="3" type="text">
+                </p>
+
+                <p>
+                    <label for="txtAddress">Address:</label>
+                    <input id="txtAddress" name="txtAddress" size="25" tabindex="5" type="text">
+                </p>
+
+                <p>
+                    <label for="txtCity">City:</label>
+                    <input id="txtCity" name="txtCity" size="25" tabindex="7" type="text">
+                </p>
+
+                <p>
+                    <label for="txtPostalCode">Postal Code:</label>
+                    <input id="txtPostalCode" name="txtPostalCode" size="25" tabindex="9" type="text">
+                </p>
+
+                <p>
+                    <label for="txtProvince">Province:</label>
+                    <select id="selectProvince" name="selectProvince" size="1" tabindex="11">
+                        <option>--Select One--</option>
+                        <option>QC</option>
+                        <option>ON</option>
+                        <option>MN</option>
+                        <option>SK</option>
+                        <option>AB</option>
+                        <option>BC</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="txtAge">Age:</label>
+                    <input id="txtAge" name="txtAge" size="25" tabindex="13" type="text">
+                </p>
+
+                <p>
+                    <label for="password">Password:</label>
+                    <input id="password" name="password" size="25" tabindex="15" type="password">
+                </p>
+
+                <p>
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input id="confirmPassword" name="confirmPassword" size="25" tabindex="17" type="password">
+                </p>
+
+                <p>
+                    <label for="txtEmail">E-mail:</label>
+                    <input id="txtEmail" name="txtEmail" size="25" tabindex="19" type="text">
+                </p>
+
+
+            </fieldset>
+
+
+            <div class="right">
+                <p>
+                    <input class="btn btn-info" name="btnSubmit" tabindex="21" type="submit" value="Register Now">
+
+                    <input class="btn btn-info" name="btnReset" tabindex="23" type="reset" value="Clear Form">
+
+                </p>
+            </div>
+        </form>
+    </div>
+    
+    <div id="footer" class="footer">&copy;&nbsp;Copyright <b>LI XU</b> Student #: 300735072 - COMP229 - Web AppLication Development - Summer 2015</div>
+
+</body>
+</html>
